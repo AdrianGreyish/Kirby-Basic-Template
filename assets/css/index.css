@@ -4,15 +4,19 @@
   }
   
   :root {  
-    --colorbg: #10171F;
-    --color01: #F9F9F9;
+    --primary-color: #000000;
+    --secondary-color: hsl(218, 50%, 78%);
+    --tertiary-color: white;
   
     --h1: clamp(4.5rem, 6.5vw, 11rem);
     --h2: clamp(1.5rem, calc(var(--h1)*0.32), 3rem);
     --h3: clamp(0.8rem, calc(var(--h1)*0.15), 1.35rem);
   
-    --padding: clamp(2.5rem, 3.2vh, 4rem);
+    --spacing: ;
   
-    --spline: 2px;
+    --spline: ;
   }
   
+  * {
+    box-sizing: border-box;
+  } 
