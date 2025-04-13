@@ -12,11 +12,30 @@
     --h2: clamp(1.5rem, calc(var(--h1)*0.32), 3rem);
     --h3: clamp(0.8rem, calc(var(--h1)*0.15), 1.35rem);
   
-    --spacing: ;
-  
-    --spline: ;
   }
   
-  * {
+  html {
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility
+  }
+
+  *,*::before,*::after {
+      box-sizing: inherit
+  }
+  
+  p {
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures contextual;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "alt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt"
   } 
+
+  @media (max-width: 568px) {
+      html {
+          overflow-x:hidden
+      }
+  }
