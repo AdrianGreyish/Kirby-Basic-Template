@@ -15,14 +15,12 @@
   <link rel="shortcut icon"  href="<?= url('assets/img/x.png') ?>" type="image/png">
   <link rel="icon" href="<?= url('assets/img/x.png') ?>" type="image/png">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
-
   <?= css([
     'assets/css/index.css',
+    'assets/css/output.css',
     '@auto'
     ]) ?>
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
 
   <?= js([
     'assets/js/main.js',
