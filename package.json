@@ -1,9 +1,11 @@
 {
-  "name": "kirby-browsersync-tailwind",
+  "name": "kirby-browsersync-tailwind-demo",
   "version": "1.0.0",
   "description": "My Kirby Browsersync + Tailwind Demo",
   "scripts": {
     "serve": "concurrently \"npm run serve-php\" \"npm run sync\" \"npm run watch\"",
+    "serve-php": "php -S localhost:8000 kirby/router.php",
+    "sync": "node browsersync.js",
     "watch": "npx tailwindcss -i ./src/input.css -o ./assets/css/output.css --content './site/**/*.php' -w",
     "build": "npx tailwindcss -i ./src/input.css -o ./assets/css/output.css --content './site/**/*.php' -m"
   },
