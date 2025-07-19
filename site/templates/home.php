@@ -4,7 +4,7 @@
 
 <main>
     
-    <section class="" id="">      
+    <section class="">      
         <h1><?= $page->title() ?></h1>
     </section>
 

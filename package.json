@@ -1,7 +1,7 @@
 {
-  "name": "kirby-browsersync-tailwind-demo",
-  "version": "1.0.0",
-  "description": "My Kirby Browsersync + Tailwind Demo",
+  "name": "kirby-tailwind",
+  "version": "1.1.0",
+  "description": "My Kirby Browsersync + Tailwind",
   "scripts": {
     "serve": "concurrently \"npm run serve-php\" \"npm run sync\" \"npm run watch\"",
     "serve-php": "php -S localhost:8000 kirby/router.php",

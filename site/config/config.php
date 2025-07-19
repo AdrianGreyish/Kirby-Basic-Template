@@ -2,14 +2,9 @@
 return [
   'debug' => true,
 
-  'languages' => [
-    'detect' => true
-  ],
-
   'smartypants' => [
         'doublequote.open'  => '&#171;',
-        'doublequote.close' => '&#187;',
-
+        'doublequote.close' => '&#187;'
     ],
 
   'date.handler' => 'strftime',
@@ -24,8 +19,6 @@ return [
             'default' => [''],
         ]
     ],
-
-  'tobimori.seo.canonicalBase' => '',
 
   'thumbs' => [
     'srcsets' => [

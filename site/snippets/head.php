@@ -7,21 +7,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <?php snippet('seo/head'); ?> 
-
   <meta name="author" content="">
   <meta name="copyright" content="">
 
   <link rel="shortcut icon"  href="<?= url('assets/img/x.png') ?>" type="image/png">
-  <link rel="icon" href="<?= url('assets/img/x.png') ?>" type="image/png">
+  <link rel="icon" href="<?= url('assets/img/icon.png') ?>" type="image/png">
 
   <?= css([
     'assets/css/index.css',
     'assets/css/output.css',
     '@auto'
     ]) ?>
-
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
 
   <?= js([
     'assets/js/main.js',
