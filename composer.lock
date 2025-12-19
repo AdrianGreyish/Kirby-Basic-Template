@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b7fb803e22a45eb87e24172337208aa",
+    "content-hash": "0622130e4281cde7daf976ffc44aeb5f",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -420,6 +420,53 @@
                 }
             ],
             "time": "2020-12-28T12:54:39+00:00"
+        },
+        {
+            "name": "hksagentur/kirby-seo",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hksagentur/kirby-seo.git",
+                "reference": "79022f58db652cb3a5015c4fe011115e94d081b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hksagentur/kirby-seo/zipball/79022f58db652cb3a5015c4fe011115e94d081b6",
+                "reference": "79022f58db652cb3a5015c4fe011115e94d081b6",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2.1"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.22"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "seo"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hks\\Seo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Weidner",
+                    "email": "d.weidner@hks-agentur.de",
+                    "homepage": "https://hks-agentur.de"
+                }
+            ],
+            "description": "A simple SEO plugin for Kirby CMS",
+            "support": {
+                "issues": "https://github.com/hksagentur/kirby-seo/issues",
+                "source": "https://github.com/hksagentur/kirby-seo/tree/1.2.0"
+            },
+            "time": "2025-06-10T08:56:27+00:00"
         },
         {
             "name": "laminas/laminas-escaper",

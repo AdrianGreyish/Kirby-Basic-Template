@@ -43,6 +43,10 @@ class ComposerStaticInit42c24665b7d1bdc28de7f80a37688bc4
         array (
             'Kirby\\' => 6,
         ),
+        'H' => 
+        array (
+            'Hks\\Seo\\' => 8,
+        ),
         'C' => 
         array (
             'Composer\\Semver\\' => 16,
@@ -99,6 +103,10 @@ class ComposerStaticInit42c24665b7d1bdc28de7f80a37688bc4
             0 => __DIR__ . '/../..' . '/kirby/src',
             1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
         ),
+        'Hks\\Seo\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/site/plugins/seo/src',
+        ),
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
@@ -142,6 +150,10 @@ class ComposerStaticInit42c24665b7d1bdc28de7f80a37688bc4
         'Composer\\Semver\\Intervals' => __DIR__ . '/..' . '/composer/semver/src/Intervals.php',
         'Composer\\Semver\\Semver' => __DIR__ . '/..' . '/composer/semver/src/Semver.php',
         'Composer\\Semver\\VersionParser' => __DIR__ . '/..' . '/composer/semver/src/VersionParser.php',
+        'Hks\\Seo\\Cms\\HasMetaTags' => __DIR__ . '/../..' . '/site/plugins/seo/src/Cms/HasMetaTags.php',
+        'Hks\\Seo\\Cms\\HasOpenGraphTags' => __DIR__ . '/../..' . '/site/plugins/seo/src/Cms/HasOpenGraphTags.php',
+        'Hks\\Seo\\Cms\\HasRobotsTag' => __DIR__ . '/../..' . '/site/plugins/seo/src/Cms/HasRobotsTag.php',
+        'Hks\\Seo\\Cms\\HasSeoTags' => __DIR__ . '/../..' . '/site/plugins/seo/src/Cms/HasSeoTags.php',
         'Kirby\\Api\\Api' => __DIR__ . '/../..' . '/kirby/src/Api/Api.php',
         'Kirby\\Api\\Collection' => __DIR__ . '/../..' . '/kirby/src/Api/Collection.php',
         'Kirby\\Api\\Controller\\Changes' => __DIR__ . '/../..' . '/kirby/src/Api/Controller/Changes.php',

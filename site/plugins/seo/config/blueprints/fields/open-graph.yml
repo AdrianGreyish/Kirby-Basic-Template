@@ -1,0 +1,39 @@
+type: group
+fields:
+  ogHeadline:
+    type: headline
+    label:
+      *: hksagentur.seo.field.ogHeadline.label
+    help:
+      *: hksagentur.seo.field.ogHeadline.help
+    numbered: false
+  ogTitle:
+    type: text
+    label:
+      *: hksagentur.seo.field.ogTitle.label
+    help:
+      *: hksagentur.seo.field.ogTitle.help
+    placeholder: "{{ page.defaultMetaTitle }}"
+  ogDescription:
+    type: textarea
+    label:
+      *: hksagentur.seo.field.ogDescription.label
+    help:
+      *: hksagentur.seo.field.ogDescription.help
+    buttons: false
+    placeholder: "{{ page.defaultMetaDescription }}"
+  ogImage:
+    type: files
+    label:
+      *: hksagentur.seo.field.ogImage.label
+    help:
+      *: hksagentur.seo.field.ogImage.help
+    image:
+      ratio: 1.91/1
+      cover: true
+    query: page.images.template('image')
+    layout: list
+    multiple: false
+    info: "{{ file.dimensions }} ({{ file.niceSize }})"
+    uploads:
+      template: image
