@@ -16,7 +16,7 @@
   <?php snippet('seo/head') ?>
 
   <title>
-    <?php echo $page->metaTitle()->isEmpty() ? 'Greta Magyar - ' . $page->title() : $page->metaTitle(); ?>
+    <?= $page->title() ?>
   </title>
 
   <?= css([
